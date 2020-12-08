@@ -1,12 +1,29 @@
 apiVersion: v1
 entries:
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.19
+    created: "2020-12-08T20:18:36.553737+02:00"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: 99cb113451f7338ae02da952b8fc261627735372b74e3c98a11add5ce090fa57
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - https://nullisnot0.github.io/helm-charts/release/local-path-provisioner/local-path-provisioner-0.0.19.tgz
+    version: 0.0.19
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2020-12-08T09:00:14.311887+02:00"
+    created: "2020-12-08T20:18:36.555436+02:00"
     description: nfs-client is an automatic provisioner that used your *already configured*
       NFS server, automatically creating Persistent Volumes.
-    digest: f6598e4c82d1c6ef3f7a9c99e47e63f0a0fb4f2f71d79d36f4fe18acfe444967
+    digest: 44d036a04962e8a0e316438daca5565a368ec4269cd6d07c09be801718610ac8
     home: https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
     keywords:
     - nfs
@@ -15,6 +32,6 @@ entries:
     sources:
     - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
     urls:
-    - https://nullisnot0.github.io/helm-charts/nfs-client-provisioner-1.2.11.tgz
+    - https://nullisnot0.github.io/helm-charts/release/nfs-client-provisioner/nfs-client-provisioner-1.2.11.tgz
     version: 1.2.11
-generated: "2020-12-08T09:00:14.310723+02:00"
+generated: "2020-12-08T20:18:36.552227+02:00"

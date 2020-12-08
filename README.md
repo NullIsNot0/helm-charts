@@ -17,6 +17,7 @@ helm package source/nfs-client-provisioner/1.2.11 -d release/nfs-client-provisio
 ```bash
 helm repo index release --url https://nullisnot0.github.io/helm-charts/release
 ```
+Move `release/index.yaml` to `index.yaml` (root directory of this repo).
 
 ## Publish
 Add, Commit and Push to GitLab.
