@@ -3,7 +3,7 @@ entries:
   local-path-provisioner:
   - apiVersion: v1
     appVersion: v0.0.19
-    created: "2020-12-08T20:18:36.553737+02:00"
+    created: "2020-12-08T22:35:58.555055+02:00"
     description: Use HostPath for persistent local storage with Kubernetes
     digest: 99cb113451f7338ae02da952b8fc261627735372b74e3c98a11add5ce090fa57
     home: https://github.com/rancher/local-path-provisioner
@@ -17,10 +17,27 @@ entries:
     urls:
     - https://nullisnot0.github.io/helm-charts/release/local-path-provisioner/local-path-provisioner-0.0.19.tgz
     version: 0.0.19
+  mongodb-replicaset:
+  - apiVersion: v1
+    appVersion: "3.6"
+    created: "2020-12-08T22:35:58.556226+02:00"
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: a639226d052d43dcd2c63ec67aa63caedd9c37a377a9a86134688f87ddf77749
+    home: https://github.com/mongodb/mongo
+    icon: https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg
+    name: mongodb-replicaset
+    sources:
+    - https://github.com/mongodb/mongo
+    - https://github.com/percona/mongodb_exporter
+    urls:
+    - https://nullisnot0.github.io/helm-charts/release/mongodb-replicaset/mongodb-replicaset-3.17.2.tgz
+    version: 3.17.2
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2020-12-08T20:18:36.555436+02:00"
+    created: "2020-12-08T22:35:58.556675+02:00"
     description: nfs-client is an automatic provisioner that used your *already configured*
       NFS server, automatically creating Persistent Volumes.
     digest: 44d036a04962e8a0e316438daca5565a368ec4269cd6d07c09be801718610ac8
@@ -34,4 +51,4 @@ entries:
     urls:
     - https://nullisnot0.github.io/helm-charts/release/nfs-client-provisioner/nfs-client-provisioner-1.2.11.tgz
     version: 1.2.11
-generated: "2020-12-08T20:18:36.552227+02:00"
+generated: "2020-12-08T22:35:58.553704+02:00"
