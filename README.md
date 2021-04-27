@@ -6,7 +6,7 @@ Create a separate directory for each release code.
 helm lint source/local-path-provisioner/0.0.19
 helm lint source/mongodb-replicaset/3.17.2
 helm lint source/nfs-client-provisioner/1.2.11
-helm lint source/nfs-subdir-external-provisioner/4.0.7
+helm lint source/nfs-subdir-external-provisioner/4.0.9
 ```
 
 ## 3. Package
@@ -14,7 +14,7 @@ helm lint source/nfs-subdir-external-provisioner/4.0.7
 helm package source/local-path-provisioner/0.0.19 -d release/local-path-provisioner
 helm package source/mongodb-replicaset/3.17.2 -d release/mongodb-replicaset
 helm package source/nfs-client-provisioner/1.2.11 -d release/nfs-client-provisioner
-helm package source/nfs-subdir-external-provisioner/4.0.7 -d release/nfs-subdir-external-provisioner
+helm package source/nfs-subdir-external-provisioner/4.0.9 -d release/nfs-subdir-external-provisioner
 ```
 
 ## 4. Generate Index

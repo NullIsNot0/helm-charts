@@ -3,7 +3,7 @@ entries:
   local-path-provisioner:
   - apiVersion: v1
     appVersion: v0.0.19
-    created: "2021-04-13T09:02:51.705854+03:00"
+    created: "2021-04-27T15:08:02.164659+03:00"
     description: Use HostPath for persistent local storage with Kubernetes
     digest: 99cb113451f7338ae02da952b8fc261627735372b74e3c98a11add5ce090fa57
     home: https://github.com/rancher/local-path-provisioner
@@ -20,7 +20,7 @@ entries:
   mongodb-replicaset:
   - apiVersion: v1
     appVersion: "3.6"
-    created: "2021-04-13T09:02:51.708171+03:00"
+    created: "2021-04-27T15:08:02.166319+03:00"
     description: NoSQL document-oriented database that stores JSON-like documents
       with dynamic schemas, simplifying the integration of data in content-driven
       applications.
@@ -37,7 +37,7 @@ entries:
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2021-04-13T09:02:51.709141+03:00"
+    created: "2021-04-27T15:08:02.167332+03:00"
     description: nfs-client is an automatic provisioner that used your *already configured*
       NFS server, automatically creating Persistent Volumes.
     digest: 44d036a04962e8a0e316438daca5565a368ec4269cd6d07c09be801718610ac8
@@ -54,7 +54,26 @@ entries:
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
-    created: "2021-04-13T09:02:51.712825+03:00"
+    created: "2021-04-27T15:08:02.172347+03:00"
+    description: nfs-subdir-external-provisioner is an automatic provisioner that
+      used your *already configured* NFS server, automatically creating Persistent
+      Volumes.
+    digest: a3b576e2b6a7b0d50e9d8282c53ac3de1dd4351f66ed3ef8301ba9124d69ca31
+    home: https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    keywords:
+    - nfs
+    - storage
+    - provisioner
+    kubeVersion: '>=1.9.0-0'
+    name: nfs-subdir-external-provisioner
+    sources:
+    - https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+    urls:
+    - https://nullisnot0.github.io/helm-charts/release/nfs-subdir-external-provisioner/nfs-subdir-external-provisioner-4.0.9.tgz
+    version: 4.0.9
+  - apiVersion: v1
+    appVersion: 4.0.2
+    created: "2021-04-27T15:08:02.171738+03:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -73,7 +92,7 @@ entries:
     version: 4.0.7
   - apiVersion: v1
     appVersion: 4.0.1
-    created: "2021-04-13T09:02:51.712257+03:00"
+    created: "2021-04-27T15:08:02.170564+03:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -92,7 +111,7 @@ entries:
     version: 4.0.6
   - apiVersion: v1
     appVersion: 4.0.0
-    created: "2021-04-13T09:02:51.71106+03:00"
+    created: "2021-04-27T15:08:02.169249+03:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -111,7 +130,7 @@ entries:
     version: 4.0.3
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2021-04-13T09:02:51.71012+03:00"
+    created: "2021-04-27T15:08:02.168277+03:00"
     description: nfs-subdir-external-provisioner is an automatic provisioner that
       used your *already configured* NFS server, automatically creating Persistent
       Volumes.
@@ -128,4 +147,4 @@ entries:
     urls:
     - https://nullisnot0.github.io/helm-charts/release/nfs-subdir-external-provisioner/nfs-subdir-external-provisioner-3.0.0.tgz
     version: 3.0.0
-generated: "2021-04-13T09:02:51.702281+03:00"
+generated: "2021-04-27T15:08:02.163426+03:00"
